@@ -3,7 +3,8 @@ Letter lettersStreet[] = new Letter[6];
 Letter lettersChoir[] = new Letter[5];
 
 void setup() {
-  size(640, 400);
+  fullScreen();
+  //size(640, 400);
   frameRate(2);
   noCursor();
   lettersStreet[0] = new Letter("s");

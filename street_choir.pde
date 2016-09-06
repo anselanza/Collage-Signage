@@ -3,8 +3,8 @@ Letter lettersStreet[] = new Letter[6];
 Letter lettersChoir[] = new Letter[5];
 
 void setup() {
-  fullScreen();
-  //size(640, 400);
+  //fullScreen();
+  size(640, 400);
   frameRate(2);
   noCursor();
   lettersStreet[0] = new Letter("s");
@@ -36,5 +36,5 @@ void draw() {
   }
   
   textAlign(CENTER, CENTER);
-  text("by Stephen Buchanan and Zarcia Zacheus", width/2, height/2);
+  //text("by Stephen Buchanan and Zarcia Zacheus", width/2, height/2);
 }
